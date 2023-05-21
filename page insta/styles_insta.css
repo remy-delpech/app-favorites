@@ -1,4 +1,5 @@
 * {
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     list-style: none;
 }
@@ -36,4 +37,104 @@ body {
 
 .header .nav-links a:hover {
     color: azure;
+}
+
+/*BANNER*/
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0, 0.7);
+    background-size: cover;
+    height: 400px;
+    color: #d62976;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.banner h1 {
+    font-size: 2.5em;
+}
+
+.banner p {
+    margin: 10px 0;
+}
+
+.banner .cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: black;
+    color: #d62976;
+    text-decoration: none;
+    border: solid 1px #d62976;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+    box-shadow: 0 3px 6px rgb(214, 41, 118, 1);
+}
+
+.banner .cta-button:hover {
+    background-color: rgb(63, 63, 63, 0.5);
+}
+
+/*BOX*/
+
+.box-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    
+}
+
+.box {
+    width: 30%;
+    background-color: rgb(0, 0, 0, 0.7);
+    padding: 20px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.box p {
+    margin-top: 10px;
+    color: #d62976;
+    text-align: justify;
+}
+
+/*FOOTER*/
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f8f9fa, 0;
+    padding: 10px 0;
+    box-shadow: 0px -3px 6px rgba(0, 0, 0, 1);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: black;
+    color: #d62976;
+    text-decoration: none;
+    border: solid 1px #d62976;
+    border-radius: 5px;
+    transition: background-color 0.5s;
+    box-shadow: 0px 3px 6px rgb(214, 41, 118, 1);
+}
+
+.footer a:hover {
+    background-color: rgb(63, 63, 63, 0.5);
 }
