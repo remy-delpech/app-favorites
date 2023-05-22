@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(/Images/bg_insta.webp);
+    background-image: url(../Images/bg_insta.webp);
     margin: 0;
     font-family: Arial, sans-serif;
     background-size: cover;
